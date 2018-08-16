@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BDVEngineDX", "BDVEngineDX\BDVEngineDX.vcxproj", "{9C1DB05B-458C-4F56-A34F-AB895B23DA24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HardwareTransformDemo", "HardwareTransformDemo\HardwareTransformDemo.vcxproj", "{11449EBC-1CEE-4073-9A7D-74354DA79CAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24} = {9C1DB05B-458C-4F56-A34F-AB895B23DA24}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NormalMappingDemo", "NormalMappingDemo\NormalMappingDemo.vcxproj", "{D4D62BDF-EAEC-4358-B747-E85339D1FA47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24} = {9C1DB05B-458C-4F56-A34F-AB895B23DA24}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimationBlendingDemo", "AnimationBlendingDemo\AnimationBlendingDemo.vcxproj", "{1B4E543A-B434-4ADA-A6D7-38244C2929EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24} = {9C1DB05B-458C-4F56-A34F-AB895B23DA24}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimationCompressionDemo", "AnimationCompressionDemo\AnimationCompressionDemo.vcxproj", "{0519C59F-A0B3-409A-BC61-8F59EB63A5C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24} = {9C1DB05B-458C-4F56-A34F-AB895B23DA24}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24}.Debug|Win32.Build.0 = Debug|Win32
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24}.Release|Win32.ActiveCfg = Release|Win32
+		{9C1DB05B-458C-4F56-A34F-AB895B23DA24}.Release|Win32.Build.0 = Release|Win32
+		{11449EBC-1CEE-4073-9A7D-74354DA79CAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11449EBC-1CEE-4073-9A7D-74354DA79CAA}.Debug|Win32.Build.0 = Debug|Win32
+		{11449EBC-1CEE-4073-9A7D-74354DA79CAA}.Release|Win32.ActiveCfg = Release|Win32
+		{11449EBC-1CEE-4073-9A7D-74354DA79CAA}.Release|Win32.Build.0 = Release|Win32
+		{D4D62BDF-EAEC-4358-B747-E85339D1FA47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4D62BDF-EAEC-4358-B747-E85339D1FA47}.Debug|Win32.Build.0 = Debug|Win32
+		{D4D62BDF-EAEC-4358-B747-E85339D1FA47}.Release|Win32.ActiveCfg = Release|Win32
+		{D4D62BDF-EAEC-4358-B747-E85339D1FA47}.Release|Win32.Build.0 = Release|Win32
+		{1B4E543A-B434-4ADA-A6D7-38244C2929EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B4E543A-B434-4ADA-A6D7-38244C2929EA}.Debug|Win32.Build.0 = Debug|Win32
+		{1B4E543A-B434-4ADA-A6D7-38244C2929EA}.Release|Win32.ActiveCfg = Release|Win32
+		{1B4E543A-B434-4ADA-A6D7-38244C2929EA}.Release|Win32.Build.0 = Release|Win32
+		{0519C59F-A0B3-409A-BC61-8F59EB63A5C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0519C59F-A0B3-409A-BC61-8F59EB63A5C9}.Debug|Win32.Build.0 = Debug|Win32
+		{0519C59F-A0B3-409A-BC61-8F59EB63A5C9}.Release|Win32.ActiveCfg = Release|Win32
+		{0519C59F-A0B3-409A-BC61-8F59EB63A5C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

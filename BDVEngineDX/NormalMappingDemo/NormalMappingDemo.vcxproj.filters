@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BasicGameObject">
+      <UniqueIdentifier>{5dd02615-afaf-4479-8c10-abb3506318cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicShader">
+      <UniqueIdentifier>{71f91ac6-b72a-43e4-a036-84ebb23b059d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NormalMappingDemo">
+      <UniqueIdentifier>{0c02ecac-2cd9-4693-a7be-b8fe9fa89429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicGameObject.cpp">
+      <Filter>BasicGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicShader.cpp">
+      <Filter>BasicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMappingDemo.cpp">
+      <Filter>NormalMappingDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicGameObject.h">
+      <Filter>BasicGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicShader.h">
+      <Filter>BasicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMappingDemo.h">
+      <Filter>NormalMappingDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

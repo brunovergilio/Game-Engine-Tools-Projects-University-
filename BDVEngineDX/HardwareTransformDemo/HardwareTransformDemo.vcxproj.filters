@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HardwareTransformationDemo">
+      <UniqueIdentifier>{6509ead2-c750-41c5-be7b-921a63042dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimatedGameObject">
+      <UniqueIdentifier>{7eb2ec43-df93-452f-b3cd-2d8ea1f2bcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimatedShader">
+      <UniqueIdentifier>{870d6293-bfcd-4ebb-a7aa-3c1614dae174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HardwareTransformDemo.cpp">
+      <Filter>HardwareTransformationDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameObject.cpp">
+      <Filter>AnimatedGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedShader.cpp">
+      <Filter>AnimatedShader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HardwareTransformationDemo.h">
+      <Filter>HardwareTransformationDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameObject.h">
+      <Filter>AnimatedGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedShader.h">
+      <Filter>AnimatedShader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

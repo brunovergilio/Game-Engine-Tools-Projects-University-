@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBXExporter">
+      <UniqueIdentifier>{0d4bccb3-927c-4b3b-b390-c52dcaa9e2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVModel">
+      <UniqueIdentifier>{fa5c5305-60a2-4e82-9f3d-e5248d974f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FBXExporter.cpp">
+      <Filter>FBXExporter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FBXExporter.h">
+      <Filter>FBXExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="BVModel.h">
+      <Filter>BVModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

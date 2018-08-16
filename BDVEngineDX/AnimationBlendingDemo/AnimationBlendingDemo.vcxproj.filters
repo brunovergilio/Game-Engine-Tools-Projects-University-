@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AnimationBlendingDemo">
+      <UniqueIdentifier>{2a5004ab-4bd8-4b72-905d-c96e49e3f358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimBlendGameObject">
+      <UniqueIdentifier>{2975e005-6493-4833-b41c-86b4246e0542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimBlendShader">
+      <UniqueIdentifier>{79315432-95ce-4e30-8601-0122d45dcf85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationBlendingDemo.cpp">
+      <Filter>AnimationBlendingDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimBlendGameObject.cpp">
+      <Filter>AnimBlendGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimBlendShader.cpp">
+      <Filter>AnimBlendShader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationBlendingDemo.h">
+      <Filter>AnimationBlendingDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimBlendGameObject.h">
+      <Filter>AnimBlendGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimBlendShader.h">
+      <Filter>AnimBlendShader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

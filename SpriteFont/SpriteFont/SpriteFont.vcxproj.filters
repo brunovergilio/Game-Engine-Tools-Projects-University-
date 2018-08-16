@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SpriteFontGenerator">
+      <UniqueIdentifier>{0c51029a-211b-4486-97f1-7a609b5a5aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteFont">
+      <UniqueIdentifier>{0271b861-bf88-430d-a0f9-9745cd5bfec6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpriteFontGenerator.h">
+      <Filter>SpriteFontGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>SpriteFont</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SpriteFontGenerator.cpp">
+      <Filter>SpriteFontGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp">
+      <Filter>SpriteFont</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

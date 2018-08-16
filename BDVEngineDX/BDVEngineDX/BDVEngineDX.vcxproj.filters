@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteModel.cpp">
+      <Filter>SpriteBatch\SpriteModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader\DDSTextureLoader.cpp">
+      <Filter>Texture / Sampler\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture / Sampler\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>Texture / Sampler\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader\WICTextureLoader.cpp">
+      <Filter>Texture / Sampler\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteShader.cpp">
+      <Filter>SpriteBatch\SpriteShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp">
+      <Filter>SpriteFont</Filter>
+    </ClCompile>
+    <ClCompile Include="BDVModel.cpp">
+      <Filter>Model\BDVModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteModel.h">
+      <Filter>SpriteBatch\SpriteModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader\DDSTextureLoader.h">
+      <Filter>Texture / Sampler\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture / Sampler\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Texture / Sampler\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader\WICTextureLoader.h">
+      <Filter>Texture / Sampler\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteShader.h">
+      <Filter>SpriteBatch\SpriteShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>SpriteFont</Filter>
+    </ClInclude>
+    <ClInclude Include="BDVModel.h">
+      <Filter>Model\BDVModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{b2046731-df0c-4488-9d80-7bf0b252fbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{d6432783-1d26-47c6-a172-d0d09f4d1ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{87c3d08c-c2a9-4bf5-af38-8571b47b87b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{1271f491-7c1a-4c98-8738-a36baf303143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture / Sampler">
+      <UniqueIdentifier>{61d6f842-2616-4ce0-b230-040a22d52f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture / Sampler\Texture">
+      <UniqueIdentifier>{d92cef91-cd5f-4007-bca7-0e67404d8890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture / Sampler\Sampler">
+      <UniqueIdentifier>{24e8a8de-10f3-42eb-a9eb-c8a465508ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture / Sampler\Loaders">
+      <UniqueIdentifier>{dab2082a-b403-4a1a-9ab4-658ee25514e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConstantBuffer">
+      <UniqueIdentifier>{221aec84-c7a2-47e2-bb04-36e5f582325a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPS">
+      <UniqueIdentifier>{7ada449b-323c-44ad-bbb4-8c6c19945797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{781dfe9d-167a-4e94-bb54-1f24175bf4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{bef351ac-eb31-481f-8a98-9a4f26f630e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{631d8456-0bcc-402e-9787-440f89927888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{349a9ccf-ad90-4609-a751-924cda0335a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{d23e1ef8-459a-43e7-a2fa-2d3b9ce6ff9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteFont">
+      <UniqueIdentifier>{d2178bf4-69c3-4632-9440-12e57d56c92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteBatch">
+      <UniqueIdentifier>{5f857a65-b1df-4ac2-8185-f1591fe2fd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\BDVModel">
+      <UniqueIdentifier>{f0a5303f-ec43-4d9a-a32a-8e100a2dc8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteBatch\SpriteModel">
+      <UniqueIdentifier>{f4fde7b0-0675-4d54-94a2-efbc85622607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteBatch\SpriteShader">
+      <UniqueIdentifier>{35da9baa-2c69-40c4-ada0-231f2c919d04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

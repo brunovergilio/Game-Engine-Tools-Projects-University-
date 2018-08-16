@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AnimationCompressionDemo">
+      <UniqueIdentifier>{4637e725-714b-4270-a8e9-322ccb1dc7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimatedShader">
+      <UniqueIdentifier>{0cf86664-7357-414e-9c48-af26a81ffa30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimatedGameObject">
+      <UniqueIdentifier>{8e910579-a15c-4718-9cfa-75efb626f506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationCompressionDemo.cpp">
+      <Filter>AnimationCompressionDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedShader.cpp">
+      <Filter>AnimatedShader</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameObject.cpp">
+      <Filter>AnimatedGameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationCompressionDemo.h">
+      <Filter>AnimationCompressionDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedShader.h">
+      <Filter>AnimatedShader</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameObject.h">
+      <Filter>AnimatedGameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
