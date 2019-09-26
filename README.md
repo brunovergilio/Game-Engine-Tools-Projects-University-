@@ -9,6 +9,7 @@ Engine created using DirectX 11. Contains demos for:
 * Normal mapping
 * Animation with compressed objects
 ```
+Video for the projects -> https://www.youtube.com/watch?v=6FCanyHmRN4
 
 # Rendering
 ## Research Work
@@ -21,6 +22,7 @@ Coded a deferred renderer using DirectX 11, along with support for point and spo
 * SpotLightShadows - Spot light shadow
 * DirectionalLightShadows - (Failed) attempt at doing cascaded shadow mapping based on the HLSL Rendering Cookbook's CSM strategy
 ```
+Video for the projects -> http://youtu.be/0L2LFK9FmRo?hd=1
 
 # Tools Programming
 ## FBXExporter
