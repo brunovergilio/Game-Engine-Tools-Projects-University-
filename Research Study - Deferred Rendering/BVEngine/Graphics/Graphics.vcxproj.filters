@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{ac3191dd-5db1-4282-bc55-e91d08dc8766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsUtils">
+      <UniqueIdentifier>{9c9ed1b2-baef-4313-a2b4-7455e06bcbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11">
+      <UniqueIdentifier>{bdc96097-5855-4409-91b7-e017e43d6d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\DirectXTex">
+      <UniqueIdentifier>{cf2ee5f6-5693-4400-b2b3-09be8e8c3fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\RendererD3D11">
+      <UniqueIdentifier>{e6629889-6b4d-45b1-952e-0d2466a99e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\Shader">
+      <UniqueIdentifier>{7892e244-854d-4c7a-b7c1-c36f3e063f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\GpuBuffer">
+      <UniqueIdentifier>{30574996-f7cb-476e-937c-6fad68f9b9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\BlendState">
+      <UniqueIdentifier>{00adcdf0-8f81-4c52-a732-1ae99e3dce4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\RasterizerState">
+      <UniqueIdentifier>{7a2a0551-ab56-444d-8004-e61cce72cae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\DepthStencilState">
+      <UniqueIdentifier>{134ca425-84a6-4a33-943a-df4f377ddf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\SamplerState">
+      <UniqueIdentifier>{a021dbc9-1f2a-4b91-a91f-299c26bfe4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\RenderInfo">
+      <UniqueIdentifier>{b01ca0b8-1543-47a3-ae77-0113fc7d6c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\GpuBuffer\VertexBuffer">
+      <UniqueIdentifier>{9d8af1ba-f9f4-46c7-98ad-283db0b7bf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\GpuBuffer\IndexBuffer">
+      <UniqueIdentifier>{dd5b8f1f-5bfd-47f1-b89d-e8d71093bec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\GpuBuffer\ConstantBuffer">
+      <UniqueIdentifier>{ae15395e-7414-4148-9cc6-4fa781e0e524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\ShaderResourceView">
+      <UniqueIdentifier>{3cfc33c8-9c33-4471-b022-9fe062b41857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\GpuBuffer\StructuredBuffer">
+      <UniqueIdentifier>{428f4372-6532-4e7d-92f0-047b9989eb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\RenderTargetView">
+      <UniqueIdentifier>{798d1b7a-863e-411f-84e4-b1de3f980969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\DepthStencilView">
+      <UniqueIdentifier>{95fc6c29-b073-4934-99fe-d9c0c6ad2673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\Texture">
+      <UniqueIdentifier>{75f39b8a-5af1-40a4-9f9b-aadf42231438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsD3D11\InputLayout">
+      <UniqueIdentifier>{cf4ba3c9-d80c-41af-a9f7-9dcc9558838c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsUtils.h">
+      <Filter>GraphicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex\DDSTextureLoader\DDSTextureLoader.h">
+      <Filter>GraphicsD3D11\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex\WICTextureLoader\WICTextureLoader.h">
+      <Filter>GraphicsD3D11\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>GraphicsD3D11\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererD3D11.h">
+      <Filter>GraphicsD3D11\RendererD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuBuffer.h">
+      <Filter>GraphicsD3D11\GpuBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>GraphicsD3D11\BlendState</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>GraphicsD3D11\RasterizerState</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>GraphicsD3D11\DepthStencilState</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerState.h">
+      <Filter>GraphicsD3D11\SamplerState</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResourceView.h">
+      <Filter>GraphicsD3D11\ShaderResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>GraphicsD3D11\RenderInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>GraphicsD3D11\GpuBuffer\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>GraphicsD3D11\GpuBuffer\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>GraphicsD3D11\GpuBuffer\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuredBuffer.h">
+      <Filter>GraphicsD3D11\GpuBuffer\StructuredBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetView.h">
+      <Filter>GraphicsD3D11\RenderTargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilView.h">
+      <Filter>GraphicsD3D11\DepthStencilView</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>GraphicsD3D11\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>GraphicsD3D11\InputLayout</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTex\DDSTextureLoader\DDSTextureLoader.cpp">
+      <Filter>GraphicsD3D11\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTex\WICTextureLoader\WICTextureLoader.cpp">
+      <Filter>GraphicsD3D11\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>GraphicsD3D11\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererD3D11.cpp">
+      <Filter>GraphicsD3D11\RendererD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuBuffer.cpp">
+      <Filter>GraphicsD3D11\GpuBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendState.cpp">
+      <Filter>GraphicsD3D11\BlendState</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>GraphicsD3D11\RasterizerState</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>GraphicsD3D11\DepthStencilState</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplerState.cpp">
+      <Filter>GraphicsD3D11\SamplerState</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResourceView.cpp">
+      <Filter>GraphicsD3D11\ShaderResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInfo.cpp">
+      <Filter>GraphicsD3D11\RenderInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>GraphicsD3D11\GpuBuffer\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>GraphicsD3D11\GpuBuffer\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>GraphicsD3D11\GpuBuffer\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredBuffer.cpp">
+      <Filter>GraphicsD3D11\GpuBuffer\StructuredBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetView.cpp">
+      <Filter>GraphicsD3D11\RenderTargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilView.cpp">
+      <Filter>GraphicsD3D11\DepthStencilView</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>GraphicsD3D11\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>GraphicsD3D11\InputLayout</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

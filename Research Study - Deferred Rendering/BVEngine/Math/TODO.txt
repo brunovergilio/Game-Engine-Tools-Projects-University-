@@ -1,0 +1,4 @@
+* Create faster versions of trigonometric functions
+	* sin
+	* cos
+	* atan2

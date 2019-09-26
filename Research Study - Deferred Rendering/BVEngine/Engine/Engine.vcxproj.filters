@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4ede130e-9965-4a0c-8f62-38dfe144ca9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{ff874d9d-3a44-47f8-837e-cd7b209857a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{b70700e5-32ca-49ce-b0a8-79e6528e9c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VertexFormat">
+      <UniqueIdentifier>{0bed19c8-c1ae-4bd7-bfb1-9c66c59beee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{0ef5d47d-d8cc-4bd3-a687-2ffa23931e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteBatch">
+      <UniqueIdentifier>{5ae8faa6-9ac6-4def-993c-97a7ba768cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{8255b4ba-a1be-438a-81f9-acd93b14da44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{d25355e3-7522-448d-86c4-f8b15a349b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Deferred">
+      <UniqueIdentifier>{2e2548d9-070a-45e3-ba21-1d3613607490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Deferred\GBuffer">
+      <UniqueIdentifier>{7c189483-7ffb-4c2b-adde-6de9af4598ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\ShadowMap">
+      <UniqueIdentifier>{3a0d3d7a-f769-4279-9365-0d2c3ce25150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Material">
+      <UniqueIdentifier>{4cc86bc0-cbce-4176-9e14-f2d7f069b177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shaders">
+      <UniqueIdentifier>{bc2be869-88b9-43b0-9a80-d01e03b7a578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\SkyBox">
+      <UniqueIdentifier>{0d72ed1c-9c24-4e2d-ad6c-85b3b7e0dd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitive">
+      <UniqueIdentifier>{7474b092-265c-4287-ae7f-f527a3f834a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{873ff670-dcfa-415c-bdcc-11a5b89e6bfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexFormat.cpp">
+      <Filter>VertexFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>Rendering\Deferred\GBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading.cpp">
+      <Filter>Rendering\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Rendering\ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexFormat.h">
+      <Filter>VertexFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Light\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>Rendering\Deferred\GBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading.h">
+      <Filter>Rendering\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Rendering\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

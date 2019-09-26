@@ -1,0 +1,5 @@
+* Add resource synchronization to allow thread-safe allocations
+* Create a structure for keeping track of the amount of memory used by allocations
+	* memory from the allocators' headers
+	* memory used by the objects
+	* total

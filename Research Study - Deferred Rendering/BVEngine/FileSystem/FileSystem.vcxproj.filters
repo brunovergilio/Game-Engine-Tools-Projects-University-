@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File">
+      <UniqueIdentifier>{44cb6367-693a-40d3-8665-a3763f4df1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileUtils">
+      <UniqueIdentifier>{872b2de0-9c4f-4713-9871-70573a1d0b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncFile">
+      <UniqueIdentifier>{902090fe-ad85-4e3c-a032-b3c52a8184c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncFile\AsyncIOResult">
+      <UniqueIdentifier>{aaecbe35-6e04-4d14-bc05-21f2b188d6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncFile\AsyncIOQueue">
+      <UniqueIdentifier>{41d093b4-4c93-4c1d-9480-824d3b177784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncFile\AsyncIO">
+      <UniqueIdentifier>{e14b78a3-af0a-4159-b9a0-6816550f368d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="File.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncIOQueue.cpp">
+      <Filter>AsyncFile\AsyncIOQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncIOResult.cpp">
+      <Filter>AsyncFile\AsyncIOResult</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncIO.cpp">
+      <Filter>AsyncFile\AsyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>FileUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="File.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncIOQueue.h">
+      <Filter>AsyncFile\AsyncIOQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncIOResult.h">
+      <Filter>AsyncFile\AsyncIOResult</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncIO.h">
+      <Filter>AsyncFile\AsyncIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>FileUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿  Allocator.cpp
+  HeapAllocator.cpp
+  LinearAllocator.cpp
+  MemoryUtils.cpp
+  PoolAllocator.cpp
+c:\depaul - game dev\gam 695\keenan_independentstudy\bvergili\bvengine\bvengine\memorysystem\poolallocator.cpp(110): warning C4100: 'size': unreferenced formal parameter
+  SafeHeapAllocator.cpp
+  StackAllocator.cpp
+  MemoryArea.cpp
+  Generating Code...
+  MemorySystem.vcxproj -> C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\Debug\MemorySystem.lib
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\Debug\MemorySystem.lib
+  1 File(s) copied
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\Allocator.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\HeapAllocator.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\LinearAllocator.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\MemoryArea.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\MemoryHelpers.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\MemorySystem.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\MemoryUtils.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\PoolAllocator.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\SafeHeapAllocator.h
+  C:\DePaul - Game Dev\GAM 695\Keenan_IndependentStudy\bvergili\BVEngine\BVEngine\MemorySystem\StackAllocator.h
+  10 File(s) copied

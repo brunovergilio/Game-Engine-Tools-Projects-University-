@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Allocators">
+      <UniqueIdentifier>{68f9077e-0060-4b8d-bdaa-bd8614c475ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryUtils">
+      <UniqueIdentifier>{459ecb82-ba91-41e4-b4d4-75bc057a6b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators\LinearAllocator">
+      <UniqueIdentifier>{53ca7395-2a92-4bd1-b592-5acd00e04b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators\StackAllocator">
+      <UniqueIdentifier>{dcc516dc-58bd-4fec-821f-92fcabc89425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators\PoolAllocator">
+      <UniqueIdentifier>{ca66d199-35c1-4b25-a15e-93506ec03fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators\HeapAllocator">
+      <UniqueIdentifier>{6b53ef3f-e505-45ec-b6bc-f7c5653dfea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryArea">
+      <UniqueIdentifier>{98c7ad5c-62df-494b-a553-582e5e8a0bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators\SafeHeapAllocator">
+      <UniqueIdentifier>{36151e3e-397a-4705-b5e5-6113913fa67a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryUtils.h">
+      <Filter>MemoryUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearAllocator.h">
+      <Filter>Allocators\LinearAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.h">
+      <Filter>Allocators\StackAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolAllocator.h">
+      <Filter>Allocators\PoolAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapAllocator.h">
+      <Filter>Allocators\HeapAllocator</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelpers.h">
+      <Filter>MemoryUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryArea.h">
+      <Filter>MemoryArea</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySystem.h" />
+    <ClInclude Include="SafeHeapAllocator.h">
+      <Filter>Allocators\SafeHeapAllocator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemoryUtils.cpp">
+      <Filter>MemoryUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearAllocator.cpp">
+      <Filter>Allocators\LinearAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAllocator.cpp">
+      <Filter>Allocators\StackAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolAllocator.cpp">
+      <Filter>Allocators\PoolAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapAllocator.cpp">
+      <Filter>Allocators\HeapAllocator</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryArea.cpp">
+      <Filter>MemoryArea</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeHeapAllocator.cpp">
+      <Filter>Allocators\SafeHeapAllocator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+</Project>

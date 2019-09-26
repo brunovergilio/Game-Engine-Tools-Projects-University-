@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="BVMath.h" />
+    <ClInclude Include="BVVector_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="BVQuaternion_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="BVMatrix_SIMD.h">
+      <Filter>SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="BVMatrix_FPU.h">
+      <Filter>FPU</Filter>
+    </ClInclude>
+    <ClInclude Include="BVQuaternion_FPU.h">
+      <Filter>FPU</Filter>
+    </ClInclude>
+    <ClInclude Include="BVVector_FPU.h">
+      <Filter>FPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect.h">
+      <Filter>Wrappers\Vect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SIMD">
+      <UniqueIdentifier>{be1c06fe-8586-46b6-ab74-54f23748eaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPU">
+      <UniqueIdentifier>{e7ba3d22-6f5e-49e6-bc47-08580406192b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{3ddf9b5e-9e8e-4897-a035-6cc3c6627dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Vect">
+      <UniqueIdentifier>{063ad106-c35a-44d2-8e97-b6c7ebd65d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Matrix">
+      <UniqueIdentifier>{58b43b08-bc83-4946-be1f-c9395e74a509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Quat">
+      <UniqueIdentifier>{c11dd44b-17ee-4b36-9dec-0affac364392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vect.cpp">
+      <Filter>Wrappers\Vect</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
