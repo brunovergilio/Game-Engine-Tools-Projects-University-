@@ -1,5 +1,5 @@
-# Game-Dev-Projects
-Game Dev projects I worked on while pursuing my Master's Degree in Game Programming at DePaul University
+# Game Engine / Tools Projects
+Projects I worked on while pursuing my Master's Degree in Game Programming at DePaul University
 
 # Engine Programming
 ## BDVEngineDX
