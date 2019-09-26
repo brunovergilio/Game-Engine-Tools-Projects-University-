@@ -10,6 +10,18 @@ Engine created using DirectX 11. Contains demos for:
 * Animation with compressed objects
 ```
 
+# Rendering
+## Research Work
+Coded a deferred renderer using DirectX 11, along with support for point and spot light shadows, along with a few demos:
+```
+* BasicDeferredRendering - Simple deferred rendering demo
+* DSSpotLightTest - Basic spot light testing within a deferred renderer
+* InstancedPointLights - Multiple sphere and multiple point light sources, done with a single (instanced) draw call each (one for the spheres and another one for the light sources)
+* PointLightShadows - Single-pass, cubemapped shadows for a point light source
+* SpotLightShadows - Spot light shadow
+* DirectionalLightShadows - (Failed) attempt at doing cascaded shadow mapping based on the HLSL Rendering Cookbook's CSM strategy
+```
+
 # Tools Programming
 ## FBXExporter
 Command-line C++ Implementation of an exporter for the FBX format created by Autodesk. It was used to acquire only the relevant data from the FBX files, since it contained a lot of data that we weren't using at the time. Features:
